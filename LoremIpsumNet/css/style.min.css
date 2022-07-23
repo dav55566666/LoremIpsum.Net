@@ -907,6 +907,7 @@ body.ie ._ibg img {
 
 * {
   animation-duration: 1s;
+  appearance: none;
 }
 
 .container {
@@ -1629,6 +1630,8 @@ body.ie ._ibg img {
     transition: all 0.5s;
     width: 0;
     max-width: unset;
+    height: 100vh;
+    justify-content: flex-start;
   }
   .header .header-container .header-container__navigation .navigation__item {
     margin: 0;
